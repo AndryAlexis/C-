@@ -1,0 +1,15 @@
+A:\GithubRepositories\C#\Leccion01-Partial\bin\Debug\net9.0\Leccion01-Partial.exe
+A:\GithubRepositories\C#\Leccion01-Partial\bin\Debug\net9.0\Leccion01-Partial.deps.json
+A:\GithubRepositories\C#\Leccion01-Partial\bin\Debug\net9.0\Leccion01-Partial.runtimeconfig.json
+A:\GithubRepositories\C#\Leccion01-Partial\bin\Debug\net9.0\Leccion01-Partial.dll
+A:\GithubRepositories\C#\Leccion01-Partial\bin\Debug\net9.0\Leccion01-Partial.pdb
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.GeneratedMSBuildEditorConfig.editorconfig
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.AssemblyInfoInputs.cache
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.AssemblyInfo.cs
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.csproj.CoreCompileInputs.cache
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.sourcelink.json
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.dll
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\refint\Leccion01-Partial.dll
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.pdb
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\Leccion01-Partial.genruntimeconfig.cache
+A:\GithubRepositories\C#\Leccion01-Partial\obj\Debug\net9.0\ref\Leccion01-Partial.dll
