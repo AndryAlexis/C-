@@ -1,0 +1,8 @@
+{
+    "cursor.cpp.enable": false,
+    "cursor.cpp.disabledLanguages": ["*"],
+    "github.copilot.nextEditSuggestions.enabled": false,
+"github.copilot.enable": {
+  "*": false
+}
+  }
