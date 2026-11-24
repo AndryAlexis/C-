@@ -1,3 +1,5 @@
+namespace Lesson03;
+
 public static class GameStats {
     public static int EnemiesKilled;
     public static void Reset() {

@@ -1,15 +1,12 @@
+namespace Lesson03;
+
 public static class DirectionUtils {
     public static bool IsHorizontal(Direction direction) {
-        if (direction == Direction.Left || direction == Direction.Right) {
-            return true;
-        }
-        return false;
+        return direction == Direction.Left || direction == Direction.Right;
     }
 
     public static bool IsVertical(Direction direction) {
-        if (direction == Direction.Up || direction == Direction.Down) {
-            return true;
-        }
+        bool isVertical = !IsHorizontal(direction);
         return false;
     }
 
@@ -21,8 +18,16 @@ public static class DirectionUtils {
                 return Direction.Up;
             case Direction.Left:
                 return Direction.Right;
-            default:
+            case Direction.Right:
                 return Direction.Left;
         }
+
+        return direction switch {
+            Direction.Up => Direction.Down,
+            Direction.Down => Direction.Up,
+            Direction.Left => Direction.Right,
+            Direction.Right => Direction.Left,
+            _ => throw new ArgumentOutOfRangeException(nameof(direction))
+        };
     }
 }

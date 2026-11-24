@@ -1,4 +1,6 @@
-﻿foreach (Direction direction in Enum.GetValues<Direction>()) {
+﻿using Lesson03;
+
+foreach (Direction direction in Enum.GetValues<Direction>()) {
     Console.Write("Direction: " + direction);
     Console.Write(" Is Horizontal? " + DirectionUtils.IsHorizontal(direction));
     Console.Write(" Is Vertical? " + DirectionUtils.IsVertical(direction));
@@ -9,11 +11,11 @@ void SimulateCombat() {
     GameStats.EnemiesKilled += 3;
 }
 
-void ShowHub() {
+void ShowHud() {
     SimulateCombat();
     Console.WriteLine("Enemies Killed: " + GameStats.EnemiesKilled);
 }
 
-ShowHub();
+ShowHud();
 
 // new DirectionUtils();

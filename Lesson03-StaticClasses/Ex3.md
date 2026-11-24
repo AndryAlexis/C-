@@ -40,8 +40,8 @@ Y  lo da porque estoy intentando crear una instancia de DirectionUtils y eso no 
 
 2. Si `ShowHud()` muestra un número que no esperas, ¿qué problema tendrías para descubrir quién cambió `EnemiesKilled`?
 
-Si dicho método me mostrase un númeo que no espero, el problema sería descubrir donde se ha actualizado. Ese es el problema de mantener estados en clases estáticas. Las puedes llamar cualquier dentro del mismo namespace haciendo muy complicado rastrear el orden de llamada.
+Si dicho método me mostrase un número que no espero, el problema sería descubrir donde se ha actualizado. Ese es el problema de mantener estados en clases estáticas. Las puedes llamar desde cualquier fichero dentro del mismo namespace o uno diferente haciendo muy complicado rastrear el orden de llamada.
 
 3. ¿Por qué `DirectionUtils` es un buen candidato para ser Static Class y `GameStats` no tanto?
 
-Porque DirectionUtils solo tiene métodos que no cambian el estado de nada mientras que GameStats sí lo hace.
+Porque DirectionUtils solo tiene métodos que no guardan el estado de nada mientras que GameStats sí lo hace.
