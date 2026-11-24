@@ -30,3 +30,5 @@ Potion
 
 ### Pregunta para pensar
 ¿Por qué `PrintAll()` puede usar la List `items` si es `private` y está declarada en otro archivo?
+
+Porque no al ser la clase partial, aunque estemos en otro fichero, seguimos estando dentro de la clase Inventory y eso significa que ambos ficheros tienen lo mismo ya que no estamos fuera de la clase.
