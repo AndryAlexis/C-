@@ -11,8 +11,6 @@ void SimulateCombat() {
     GameStats.EnemiesKilled += 3;
 }
 
-SimulateCombat();
-
 void ShowHud() {
     Console.WriteLine("Enemies Killed: " + GameStats.EnemiesKilled);
 }
