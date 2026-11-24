@@ -40,4 +40,4 @@ El error es a causa de que, como estoy corriendo el programa en modo NO DEBUG, n
 
 2. ¿Qué diferencia hay entre usar `#if DEBUG` y un `bool isDebug = true;` con un `if` normal?
 
-El conditional compilation evita su completa compilation si se ejecuta en modo debug mientras que un if normal siempre se ejecuta (otra cosa es que se cumpla la ejecución).
+El conditional compilation evita su completa compilation si no se ejecuta en modo debug mientras que un if normal siempre se ejecuta (otra cosa es que se cumpla la condición durante la ejecución).

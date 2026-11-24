@@ -8,3 +8,5 @@ inventory.Add("Potion");
 #if DEBUG
 inventory.PrintAll();
 #endif
+
+Console.WriteLine("Inventory ready");
