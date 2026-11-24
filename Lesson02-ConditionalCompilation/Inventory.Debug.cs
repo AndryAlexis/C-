@@ -1,4 +1,4 @@
-namespace Leccion01Partial;
+namespace Lesson02;
 
 #if DEBUG
 partial class Inventory {

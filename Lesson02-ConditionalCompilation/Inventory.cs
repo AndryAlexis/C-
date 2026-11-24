@@ -1,4 +1,4 @@
-namespace Leccion01Partial;
+namespace Lesson02;
 
 partial class Inventory {
     private List<string> items = new List<string>();

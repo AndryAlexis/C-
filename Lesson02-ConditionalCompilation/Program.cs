@@ -1,4 +1,4 @@
-﻿using Leccion01Partial;
+﻿using Lesson02;
 
 Inventory inventory = new Inventory();
 inventory.Add("Sword");
