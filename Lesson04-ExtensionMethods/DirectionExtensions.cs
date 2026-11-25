@@ -6,7 +6,7 @@ public static class DirectionExtensions {
     }
 
     public static bool IsVertical(this Direction direction) {
-        return !IsHorizontal(direction);
+        return !direction.IsHorizontal();
     }
 
     public static Direction GetOpposite(this Direction direction) {
